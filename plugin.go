@@ -3,9 +3,9 @@ package chart
 import (
 	"os"
 
-	"github.com/aghape-pkg/admin"
-	"github.com/aghape/plug"
-	"github.com/aghape/router"
+	"github.com/ecletus-pkg/admin"
+	"github.com/ecletus/plug"
+	"github.com/ecletus/router"
 )
 
 type Plugin struct {

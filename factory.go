@@ -3,7 +3,7 @@ package chart
 import (
 	"time"
 
-	"github.com/aghape/admin"
+	"github.com/ecletus/admin"
 	"github.com/moisespsena/go-error-wrap"
 )
 

@@ -4,4 +4,4 @@ factories:
       - chart1:
       - chart2:
   funcs:
-    github.com/aghape-pkg/chart/sample.SampleFuncFactory:
+    github.com/ecletus-pkg/chart/sample.SampleFuncFactory:

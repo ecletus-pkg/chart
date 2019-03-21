@@ -1,2 +1,2 @@
 # chart
-Chart resources for Aghape Framework
+Chart resources for Ecletus Framework

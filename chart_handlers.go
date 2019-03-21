@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aghape/admin"
+	"github.com/ecletus/admin"
 	"github.com/moisespsena-go/xroute"
 )
 

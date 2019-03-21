@@ -8,9 +8,9 @@ import (
 
 	"github.com/moisespsena/go-error-wrap"
 
-	"github.com/aghape-pkg/admin"
-	"github.com/aghape/admin"
-	"github.com/aghape/core"
+	"github.com/ecletus-pkg/admin"
+	"github.com/ecletus/admin"
+	"github.com/ecletus/core"
 	"github.com/moisespsena/go-default-logger"
 	"github.com/moisespsena/go-path-helpers"
 )
@@ -69,7 +69,7 @@ func (c *Charts) RegisterFuncMaps(register func(string, interface{})) {
 		return template.HTMLAttr(r)
 	})
 	register("charts__js", func() []string {
-		return []string{"js/date.js", "vendors/chartjs.org/Chart.js", "chart/aghape-charts.js"}
+		return []string{"js/date.js", "vendors/chartjs.org/Chart.js", "chart/ecletus-charts.js"}
 	})
 }
 

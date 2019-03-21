@@ -6,7 +6,7 @@ import (
 
 	"github.com/jinzhu/configor"
 
-	"github.com/aghape-pkg/admin"
+	"github.com/ecletus-pkg/admin"
 
 	"github.com/moisespsena/go-error-wrap"
 )

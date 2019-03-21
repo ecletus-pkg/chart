@@ -1,7 +1,7 @@
 package sample
 
 import (
-	"github.com/aghape-pkg/chart"
+	"github.com/ecletus-pkg/chart"
 	"github.com/moisespsena/go-path-helpers"
 )
 

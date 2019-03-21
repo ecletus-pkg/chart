@@ -3,9 +3,9 @@ package chart
 import (
 	"time"
 
-	"github.com/aghape/admin"
+	"github.com/ecletus/admin"
 
-	"github.com/aghape/core"
+	"github.com/ecletus/core"
 )
 
 type Context struct {
