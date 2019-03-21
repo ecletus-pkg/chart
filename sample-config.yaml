@@ -1,0 +1,7 @@
+factories:
+  resources:
+    ChartSample:
+      - chart1:
+      - chart2:
+  funcs:
+    github.com/aghape-pkg/chart/sample.SampleFuncFactory:
