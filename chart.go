@@ -11,8 +11,8 @@ import (
 	"github.com/ecletus-pkg/admin"
 	"github.com/ecletus/admin"
 	"github.com/ecletus/core"
-	"github.com/moisespsena/go-default-logger"
-	"github.com/moisespsena/go-path-helpers"
+	"github.com/moisespsena-go/default-logger"
+	"github.com/moisespsena-go/path-helpers"
 )
 
 var (

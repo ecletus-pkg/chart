@@ -2,7 +2,7 @@ package sample
 
 import (
 	"github.com/ecletus-pkg/chart"
-	"github.com/moisespsena/go-path-helpers"
+	"github.com/moisespsena-go/path-helpers"
 )
 
 func init() {
