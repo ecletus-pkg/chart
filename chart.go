@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 
 	"github.com/ecletus-pkg/admin"
 	"github.com/ecletus/admin"

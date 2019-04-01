@@ -8,7 +8,7 @@ import (
 
 	"github.com/ecletus-pkg/admin"
 
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 )
 
 const (

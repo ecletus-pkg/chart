@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/ecletus/admin"
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 )
 
 type ResourceFactory struct {

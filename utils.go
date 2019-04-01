@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/now"
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 )
 
 // range specification, note that min <= max
