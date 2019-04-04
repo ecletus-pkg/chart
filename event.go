@@ -1,6 +1,6 @@
 package chart
 
-import "github.com/moisespsena/go-edis"
+import "github.com/moisespsena-go/edis"
 
 var (
 	E_REPORT_FACTORY  = PKG + ".reportFactory"
