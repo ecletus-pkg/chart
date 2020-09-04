@@ -17,7 +17,7 @@ import (
 
 var (
 	PKG = path_helpers.GetCalledDir()
-	log = defaultlogger.NewLogger(PKG)
+	log = defaultlogger.GetOrCreateLogger(PKG)
 )
 
 type Charts struct {
@@ -29,10 +29,10 @@ func (c *Charts) RegisterFuncMaps(register func(string, interface{})) {
 		return c
 	})
 	register("charts__admin_url", func(ctx *admin.Context) string {
-		return ctx.GenURL(c.Factory.Config.Uri.AdminUri)
+		return ctx.Path(c.Factory.Config.Uri.AdminUri)
 	})
 	register("charts__site_url", func(ctx *core.Context) string {
-		return ctx.GenURL(c.Factory.Config.Uri.AdminUri)
+		return ctx.Path(c.Factory.Config.Uri.AdminUri)
 	})
 	register("charts__get", func(id string, adminName ...string) (chart *Chart) {
 		if len(adminName) > 0 {

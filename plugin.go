@@ -26,7 +26,7 @@ func (p *Plugin) ProvideOptions() []string {
 	return []string{p.ChartsKey}
 }
 
-func (p *Plugin) Init(options *plug.Options) error {
+func (p *Plugin) ProvidesOptions(options *plug.Options) error {
 	cfg, err := LoadConfigDir(p.ConfigDir)
 	if err != nil && !os.IsNotExist(err) {
 		return err
